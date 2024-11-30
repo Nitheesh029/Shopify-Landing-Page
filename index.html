@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitheesh Shopify Clone</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div id="nav-bar" class="h-[72px] border-b-2 border-b-slate-300 flex items-center justify-evenly fixed top-0 left-0 right-0 z-20 bg-white">
+            <div id="left-section" class="flex items-center">
+                <!-- Logo -->
+                 <div class="flex flex-shrink-0">
+                    <img src="images/shopify-logo.png" alt="" class="h-[35px] w-[125px]">
+                 </div>
+
+                 <!-- Menu -->
+                  <div id="menu-options" class="hidden lg:flex flex-shrink-0">
+                    <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Solutions</button>
+                            <select name="" id="" class="bg-transparent"></select>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Pricing</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Resources</button>
+                            <select name="" id="" class="bg-transparent"></select>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Enterprise</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline ">What's new</button>
+                            <select name="" id="" class="bg-transparent"></select>
+                        </div>
+                   </div>
+            </div>
+
+            <!-- Right-section -->
+             <div class="lg:hidden flex items-center">
+                <div class="mx-10 text-[18px] ">
+                    <button class="underline text-md">Start free trial</button>
+                </div>
+                <i class="fa-solid fa-bars text-xl"></i>
+             </div>
+             <div id="Right-section" class="lg:flex hidden items-center flex-shrink-0 ">
+                <div class="mx-3 text-[18px]">
+                    <button class="hover:underline text-md">Log in</button>
+                </div>
+                <div>
+                    <button class="font-bold text-white bg-black px-5 py-3 rounded-full hover:opacity-60 transition-opacity">Start free trial</button>
+                </div>
+             </div>
+        </div>
+        <!-- Second  div -->
+        <div class="fixed top-[71px] left-0 right-0 h-[73px] border-2 border-b-slate-300 flex items-center justify-around z-20 bg-white">
+            <!-- Left-section -->
+             <div>
+                 <!-- Menu -->
+                  <div class="lg:hidden">
+                    <p class="text-gray-300 text-start">Blog</p>
+                    <p class="font-bold text-1xl text-end">Menu</p>
+                  </div>
+                    <div id="menu-options" class="lg:flex hidden flex-shrink-0">
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md font-bold">Blog</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Find an Idea</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Starting Up</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline text-md">Marketing</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline ">Latest</button>
+                        </div>
+                        <div class="mx-3 text-[18px]">
+                            <button class="hover:underline ">More</button>
+                            <select name="" id="" class="bg-transparent"></select>
+                        </div>
+                    </div>
+               </div>
+               <!-- Right Section -->
+                <div class="lg:hidden flex">
+                    <select name="" id="" class="text-xl"></select>
+                </div>
+               <div class="lg:flex hidden">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+        </div>
+    </header>
+    <!-- hero section -->
+    <div id="main-div" class="bg-[#f6f6f1] h-[300px] top-[144px] relative flex justify-center">
+        <div class="h-[300px] w-[15%] relative overflow-hidden">
+            <div class="absolute bg-[url('/images/Hero-1.webp')] bg-cover w-[155px] h-[220px] right-0 bottom-[-60px] rounded-lg">
+            </div>
+        </div>
+        <div class="h-[300px] w-[50%] flex flex-col justify-center text-center">
+            <h1 class="text-4xl font-display">START SELLING WITH SHOPIFY TODAY</h1>
+            <p class="text-sm mt-4">Start your free trial with Shopify today—then use these resources to guide you through every step of the process.</p>
+            <div class="mt-4">
+                <button class="font-bold text-white bg-black px-5 py-3 rounded-full hover:opacity-60 transition-opacity">Start free trial</button>
+                <button class="font-bold text-black ring-2 ring-[#d5bdaf] bg-white px-5 py-3 rounded-full hover:shadow-[inset_0_0_0_2px_#d5bdaf] transition-shadow duration-200 ease-in-out">learn more</button>
+            </div>
+        </div>
+        <div class="h-[300px] w-[15%] relative overflow-hidden">
+            <div class="absolute bg-[url('/images/hero-2.jpeg')] bg-cover w-[155px] h-[200px] left-0 top-[-40px] rounded-lg z-10">
+            </div>
+            <div class="absolute bg-[url('/images/hero-3.jpg')] bg-cover w-[155px] h-[220px] right-0 bottom-[-60px] rounded-lg z-10">
+            </div>
+        </div>
+    </div>
+    <!-- Third section -->
+<div class="relative top-[144px] mt-8  text-center">
+    <div class="container mx-auto px-4 text-center">
+        <a href="https://www.shopify.com/blog" class="text-sm">Blog |</a>
+        <a href="https://www.shopify.com/blog/topics/marketing" class="text-sm">Marketing</a>
+        <br>
+        <h2 class="text-5xl text-center font-modern">20 Examples for Creating an Effective Landing Page Design</h2>
+        <br>
+        <p class="font-modern w-[80%]">Looking for clever landing page examples? Learn from experts to create better landing page designs that attract—and keep—the customers you want.</p>
+        <br>
+        <br>
+        <p class="lg:hidden block font-bold">byElise Dopson</p>
+        <p class="lg:hidden block text-sm text-gray-300">Last updated Nov 26, 2024</p>
+    </div>
+    <br>
+    <div class="flex items-center justify-center">
+        <img src="images/hero-4.jpg" alt="" class="w-[70%]">
+    </div>
+</div>
+<!-- fourth section -->
+ <div class="relative top-[144px] mt-8  text-center flex bg-black h-[456px] w-full">
+    <div class="h-full w-1/2">
+        <img src="images/footer.jpg" alt="" class="h-full w-full object-cover">
+    </div>
+    <div class=" text-white h-full w-1/2 flex flex-col justify-center px-14">    
+        <h1 class="text-3xl font-display">The newsletter for entrepreneurs</h1>
+        <br>
+        <p class="text-lg">Join millions of self-starters in getting business resources, tips, and inspiring stories in your inbox.</p>
+        <br>
+        <div class="h-auto w-[400px] rounded-full bg-white py-[0.2rem]">
+            <input type="text" placeholder="Search" class="rounded-l-full p-3 mr-[3.7rem]"/>
+            <button class="h-full rounded-full bg-green-400 p-3 px-7 text-black">Subscribe</button>
+        </div>
+        <br>
+        <p class="w-[406px] text-[12px] text-justify">
+            Unsubscribe anytime. By entering your email, you agree to receive marketing emails from Shopify. By proceeding, you agree to the <a href="#" class="underline">Terms and Conditions</a> and <a href="#" class="underline">Privacy Policy</a>.
+        </p>
+    </div>
+ </div>
+
+ <!-- fifth section -->
+ <div class="relative top-[144px] justify-center items-center flex flex-col bg-green-400 h-[500px] w-full ">
+    <div class="text-center w-[500px]">
+    <p class="text-6xl font-bold font-display">Sell anywhere with Shopify</p>
+    </div>
+    <br>
+    <div class="text-center w-[680px]">
+        <p>Learn on the go. Try Shopify for free, and explore all the tools you need to start, run, and grow your business.</p>
+    </div>
+    <br>
+    <button class="font-bold text-white bg-black px-8 py-4 rounded-full hover:opacity-60 transition-opacity">Start free trial</button>
+    <p class="text-sm">Try Shopify for free, no credit card required.</p>
+</div>
+
+<footer class="relative top-[144px] h-[800px] bg-black text-white px-[10%] py-12">
+    <div class="flex justify-between">
+        <!-- Logo -->
+        <div>
+            <img src="images/shopify-bag-logo.png" alt="" class="w-[100px] bg-transparent"> 
+        </div>
+        <div class="grid grid-cols-4 gap-10">
+            <!-- shopify -->
+        <div>
+            <p class="text-lg font-bold mb-4">Shopify</p>
+            <ul>
+                <li class="mb-3 hover:underline cursor-pointer">About</li>
+                <li class="mb-3 hover:underline cursor-pointer">Carrers</li>
+                <li class="mb-3 hover:underline cursor-pointer">Invester</li>
+                <li class="mb-3 hover:underline cursor-pointer">Press and Media</li>
+                <li class="mb-3 hover:underline cursor-pointer">Partners</li>
+                <li class="mb-3 hover:underline cursor-pointer">Affiliates</li>
+                <li class="mb-3 hover:underline cursor-pointer">Legal</li>
+                <li class="mb-3 hover:underline cursor-pointer">Service Status</li>
+            </ul>
+        </div>
+        <!-- support -->
+        <div>
+            <p class="text-lg font-bold mb-4">Support</p>
+            <ul>
+                <li class="mb-3 hover:underline cursor-pointer">Merchant Support</li>
+                <li class="mb-3 hover:underline cursor-pointer">Help Center</li>
+                <li class="mb-3 hover:underline cursor-pointer">Hire a Partner</li>
+                <li class="mb-3 hover:underline cursor-pointer">Shopify Academy</li>
+                <li class="mb-3 hover:underline cursor-pointer">Shopify Community</li>
+            </ul>
+        </div>
+        <!-- Developers -->
+        <div>
+            <p class="text-lg font-bold mb-4">Developers</p>
+            <ul>
+                <li class="mb-3 hover:underline cursor-pointer">Shopify.dev</li>
+                <li class="mb-3 hover:underline cursor-pointer">API Documentation</li>
+                <li class="mb-3 hover:underline cursor-pointer">Dew Degree</li>
+            </ul>
+        </div>
+        <!-- Products -->
+        <div>
+            <p class="text-lg font-bold mb-4">Shopify</p>
+            <ul>
+                <li class="mb-3 hover:underline cursor-pointer">Shop</li>
+                <li class="mb-3 hover:underline cursor-pointer">Shop Pay</li>
+                <li class="mb-3 hover:underline cursor-pointer">Shopify Plus</li>
+                <li class="mb-3 hover:underline cursor-pointer">Shopify Fulfillment Network</li>
+                <li class="mb-3 hover:underline cursor-pointer">Linkpop</li>
+                <li class="mb-3 hover:underline cursor-pointer">Shopify for Enterprise</li>
+                <li class="mb-3 hover:underline cursor-pointer">Legal</li>
+                <li class="mb-3 hover:underline cursor-pointer">Service Status</li>
+            </ul>
+        </div>
+        <!-- Global Impact -->
+        <div>
+            <p class="text-lg font-bold mb-4">Shopify</p>
+            <ul>
+                <li class="mb-3 hover:underline cursor-pointer">Sustainability</li>
+                <li class="mb-3 hover:underline cursor-pointer">Social Impact</li>
+                <li class="mb-3 hover:underline cursor-pointer">Build Black</li>
+                <li class="mb-3 hover:underline cursor-pointer">Build Native</li>
+                <li class="mb-3 hover:underline cursor-pointer">Research</li>
+            </ul>
+        </div>
+        <!-- Global Impact -->
+        <div>
+            <p class="text-lg font-bold mb-4">Solutions</p>
+            <ul>
+                <li class="mb-3 hover:underline cursor-pointer">Online Store Builder</li>
+                <li class="mb-3 hover:underline cursor-pointer">Website Builder</li>
+                <li class="mb-3 hover:underline cursor-pointer">Ecommerce Website</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr class="text-gray-500">
+    <br>
+    <div class="flex items-center justify-between">
+        <!-- Left -Section -->
+        <div id="menu-options" class="hidden lg:flex flex-shrink-0 ">
+            <div class="mx-3 text-[15px]">
+                    <button class="hover:underline text-md">🌐USA</button>
+                    <select name="" id="" class="bg-transparent"></select>
+                </div>
+                <div class="mx-3 text-[15px]">
+                    <button class="hover:underline text-md">Terms and Services</button>
+                </div>
+                <div class="mx-3 text-[15px]">
+                    <button class="hover:underline text-md">Privacy Policy</button>
+                </div>
+                <div class="mx-3 text-[15px]">
+                    <button class="hover:underline text-md">Sitemap</button>
+                </div>
+                <div class="mx-3 text-[15px]">
+                    <button class="hover:underline ">Privacy Choice</button>
+                </div>
+           </div>
+           <!-- right-section -->
+            <div class="flex items-center justify-between">
+                <i class="fa-brands fa-facebook mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+                <i class="fa-brands fa-twitter mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+                <i class="fa-brands fa-youtube mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+                <i class="fa-brands fa-instagram mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+                <i class="fa-brands fa-tiktok mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+                <i class="fa-brands fa-linkedin mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+                <i class="fa-brands fa-pinterest mx-4 text-3xl hover:opacity-50 transition-opacity"></i>
+            </div>
+    </div>
+</footer>
+</body>
+</html>
